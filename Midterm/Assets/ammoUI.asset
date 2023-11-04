@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ammoUI
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":496.0,"y":120.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-104.0,"y":-159.0},"guid":"133a2725-a0e1-4200-8245-ac91d320d9c8","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":160.0,"y":-75.0},"guid":"ad42f9e5-1392-4e80-90b7-ef13a60d4a88","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"chainable":false,"parameterNames":["sourceText","syncTextInputBox"],"member":{"name":"SetText","parameterTypes":["System.String","System.Boolean"],"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"%sourceText":{"$content":"","$type":"System.String"},"%syncTextInputBox":{"$content":true,"$type":"System.Boolean"}},"position":{"x":387.0,"y":-82.0},"guid":"53eca4e0-da8d-46b3-854c-5706c0085c60","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"type":"System.String","value":{"$content":"Ammo:
+      ","$type":"System.String"},"defaultValues":{},"position":{"x":61.0,"y":134.0},"guid":"dc6b19c7-3236-477f-9095-4887b1116443","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"inputCount":2,"defaultValues":{},"position":{"x":251.0,"y":117.0},"guid":"2632d3ef-90dc-4873-8733-5ef6f7db3fcd","$version":"A","$type":"Unity.VisualScripting.GenericSum","$id":"19"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Ammo","$type":"System.String"}},"position":{"x":55.0,"y":281.0},"guid":"d5cc2122-48f6-426c-b499-63c7bcc15fa1","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"f3fa82f0-34c7-48b6-ba1a-b57232ef5fc6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"0","guid":"42c7e41f-d02b-401a-8f8b-d9f2c3683750","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"sum","destinationUnit":{"$ref":"13"},"destinationKey":"%sourceText","guid":"f317ff5b-81d6-44b1-9560-38c820632255","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"1","guid":"0bfcbe79-7dd4-497e-a277-338c0500c115","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
